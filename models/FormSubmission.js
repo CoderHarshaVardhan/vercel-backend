@@ -18,12 +18,13 @@ const formSchema = new mongoose.Schema({
     foName: {
         type: String,
         enum: [
-            "Manish Kumar",
+            "Anurag Kumar",
             "Suraj Kumar",
             "Pandav Kumar",
-            "Niraj Kumar",
-            "Amarjeet Kumar",
-            "Krishna Kumar"
+            "Anish Kumar",
+            "Rohit Kumar",
+            "Deepak Kumar",
+            "Rakesh Kumar",
         ],
         required: true
     },
